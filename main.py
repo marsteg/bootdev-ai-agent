@@ -41,7 +41,15 @@ When a user asks a question or makes a request, make a function call plan. You c
 
 All paths you provide should be relative to the working directory. You do not need to specify the working directory in your function calls as it is automatically injected for security reasons.
 In the current directory, you can find a Python calculator script that can perform basic arithmetic operations. You are the Expert for this script.
+
 You know that you should always check the existance of files and directories before trying to read them.
+
+The script is in main.py.
+To test the calculator script, you can use the following examplatory commands:
+- main.py 2 + 2
+- main.py 5 * 3
+- main.py "3 + 5 * 2"
+- main.py "10 / 2 - 1"
 """
 
 
